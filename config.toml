@@ -1,13 +1,19 @@
 # The URL the site will be built for
 base_url = "https://www.wildrydegames.com"
+title = "Wild Ryde Games"
+theme = "kita"
+default_language = "en"
 
+# This enables the blog post section!
+taxonomies = [
+  { name = "categories" },
+  { name = "tags" }
+]
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
-
-theme = "kita"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -15,4 +21,8 @@ theme = "kita"
 highlight_code = false
 
 [extra]
-# Put all your custom variables here
+author = "Wild Ryde Games"
+menu = [
+  { name = "Home", url = "/" },
+  { name = "Blog", url = "/posts" }
+]
