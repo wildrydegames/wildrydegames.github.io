@@ -3,4 +3,20 @@
     <url>
         <loc>https://www.wildrydegames.com/</loc>
     </url>
+    <url>
+        <loc>https://www.wildrydegames.com/categories/</loc>
+    </url>
+    <url>
+        <loc>https://www.wildrydegames.com/posts/</loc>
+    </url>
+    <url>
+        <loc>https://www.wildrydegames.com/posts/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://www.wildrydegames.com/posts/test-post/</loc>
+        <lastmod>2025-07-18</lastmod>
+    </url>
+    <url>
+        <loc>https://www.wildrydegames.com/tags/</loc>
+    </url>
 </urlset>
